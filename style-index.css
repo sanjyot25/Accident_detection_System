@@ -1,0 +1,524 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Montserrat', sans-serif;	
+}
+
+html{
+	scroll-behavior: smooth;
+	font-family: 'Montserrat', sans-serif;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	background-color: #e6e6e6;
+}
+
+.header{
+
+	background-color: #E2BFBF;
+	padding: 0px;
+}
+
+.header .navbar .navbar-brand{
+	font-family: 'Montserrat', sans-serif;
+	color: #000000;
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.header .navbar #collapsibleNavbar .nav-item .nav-link{
+	font-family: 'Montserrat', sans-serif;
+	color: #000000;
+	font-size: 19px;
+	font-weight: 500;
+	opacity: .8;
+}
+
+
+/*=========================== first section starts======================*/
+.sectionOne{
+	margin-top: 100px;
+	/*background-color: ;*/
+}
+
+.sectionOne .sectionOneTitle h2{
+	font-size: 50px;
+	text-align: left;
+}
+.sectionOne .sectionOneimageCardSlider {
+  max-width:350px;
+  max-height: auto;
+  background-color: yellow;
+}
+
+.sectionOne .sectionOneimageCardSlider img {
+  width:100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 992px ) and (min-width: 768px) {
+	.sectionOne .sectionOneimageCardSlider {
+		margin-top: 50%;
+	}
+}
+@media screen and (max-width: 700px) {
+	.sectionOne .sectionOneTitle h2{
+		margin-top: -50px;
+		font-size: 30px;
+		text-align: left;
+	}
+}
+/*================================ second section starts ====================*/
+
+.sectionSecond{
+	margin-top: 50px;
+	background-color:red ;
+}
+.sectionSecond  .imageCircle img{
+	margin-top: 20px;
+	height: 350px;
+	width:  350px;
+	background-color: yellow;
+	border-radius: 50%;
+}
+
+
+.sectionSecond  .imgDataButton {
+	text-align: center;
+	display: block;	
+}
+
+.sectionSecond .imgDataButton button{
+	margin: 10px;
+	font-size: 20px;
+	font-weight: 500;
+	padding-bottom: 40px;
+	height: 40px;
+	width: 320px;
+	background-color: #E2BFBF;
+	border-radius: 10px;
+}
+
+.sectionSecond .heading{
+	font-weight: 500;
+	margin-top: 20px;
+	font-size: 35px;
+	color: #000000;
+}
+
+.sectionSecond .subHeading{
+	font-size: 25px;
+	color: #F8F8FF;
+}
+
+.sectionSecond .subHeading button{
+	float: center;
+	font-size: 20px;
+	font-weight: 500;
+	padding-bottom: 40px;
+	height: 40px;
+	width: 340px;
+	background-color: #E2BFBF;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+@media screen and (max-width: 700px) {
+	.sectionSecond  .imageCircle img{
+		height: 250px;
+		width:  250px;
+	}
+	.sectionSecond .heading{
+		font-weight: 500;
+		margin-top: 20px;
+		font-size: 30px;
+		color: #000000;
+	}
+	.sectionSecond .subHeading{
+		font-size: 19px;
+		color: #F8F8FF;
+	}
+	
+}
+
+
+
+/*========================= section thirs starts =============================*/
+.SectionThird{
+	margin-top: 50px;
+}
+.SectionThird .SectionThirdHeading p{
+	color: #000000;
+	font-size: 35px;
+	font-weight: 500;
+}
+
+.SectionThird .SectionThirdSubHeading{
+	font-size: 25px;
+}
+.SectionThird .SectionThirdSubHeading button{
+	font-size: 20px;
+	font-weight: 500;
+	padding-bottom: 40px;
+	height: 40px;
+	width: 320px;
+	background-color: #E2BFBF;
+	border-radius: 10px;
+}
+.SectionThird .sectionThirdImageCardSlider{
+	max-height: 500px;
+	max-width: 400px; 
+	background-color: ;
+}
+
+.SectionThird .sectionThirdImageCardSlider img{
+	max-height: 500px;
+	max-width: 250px;
+}
+
+@media screen and (max-width: 992px ) and (min-width: 768px) {
+	.SectionThird .sectionThirdImageCardSlider {
+		margin-top: 5%;
+		/*margin-right: 5%;*/
+		background-color: ;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.SectionThird .SectionThirdHeading p{
+		color: #000000;
+		font-size: 30px;
+		font-weight: 500;
+	}
+	.SectionThird .SectionThirdSubHeading button{
+		font-size: 16px;
+		font-weight: 500;
+		padding-bottom: 30px;
+		height: 30px;
+		width: 320px;
+		background-color: #E2BFBF;
+		border-radius: 10px;
+	}
+}
+
+/*======================== fourth section starts ===========================*/
+.sectionFourth{
+	margin-top: 50px;
+	background-color: red;
+}
+
+.sectionFourth h1{
+	padding-top: 30px;
+	font-size: 40px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+.sectionFourth .card{
+	box-shadow: 5px 5px 15px #cc0000!important;
+	border-color: red;
+	background-color: red;
+	transform: translateY(20px);
+	margin-bottom: 30px;
+}
+
+.sectionFourth .card .card-body .card-title{
+	font-size: 35px;
+	font-weight: 400;
+	text-align: center;
+}
+.sectionFourth .card .card-body .card-text{
+	font-size: 35px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.sectionFourth .card .card-body a{
+	text-decoration: none;
+	color: #f2f2f2;
+	float: right;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+/*============================ fifth section starts ===================================*/
+.sectionFifth{
+	margin-top: 40px;
+}
+.sectionFifth h1{
+	font-size: 40px;
+}
+.sectionFifth .sectionFifthSubTitle{
+	margin-top: -25px;
+	padding: 20px;
+	background-color: white;
+	box-shadow: 5px 5px 15px #F8F8F8!important;
+	transform: translateY(30px);
+}
+.sectionFifth .sectionFifthSubTitle p{
+	font-size: 28px;
+	text-align: left;
+	text-transform: lowercase;
+}
+
+@media screen and (max-width: 775px) {
+	.sectionFifth h1{
+		font-size: 30px;
+	}
+	.sectionFifth .sectionFifthSubTitle p{
+		font-size: 25px;
+	}
+}
+
+/*============================== sixth section starts =========================*/
+.sectionSixth{
+	margin-top: 50px;
+	background-color: red;
+	padding-bottom:  50px;
+}
+
+.sectionSixth .sectionSixthTitle{
+	padding-top: 30px;
+	text-align: left;
+	font-size: 40px;
+}
+
+.sectionSixth p{
+	padding: 20px;
+	font-size: 28px;
+	text-align: center;
+	float: center;
+	box-shadow: 5px 5px 15px #cc0000!important;
+	transform: translateY(30px);
+	background-color: red;
+}
+
+@media screen and (max-width: 775px) {
+	.sectionSixth .sectionSixthTitle{
+		text-align: left;
+		font-size: 30px;
+	}
+	.sectionSixth p{
+		font-size: 25px;
+		text-align: left;
+	}
+
+}
+
+/*============================== seventh section starts =========================*/
+.SectionSeventh{
+	margin-top: 50px;
+}
+
+.SectionSeventh .seventhSectionTitle{
+	font-weight: 500;
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+
+.SectionSeventh .card .card-title{
+	margin-top: -20px;
+	text-align: center;
+	font-weight: 900;
+}
+
+.SectionSeventh .card #IndividualSocialMedia .fa{
+	  font-size: 20px;
+	  width: 30px;
+	  text-align: center;
+	  text-decoration: none;
+	  margin: 5px 2px;
+	  border-radius: 10px;
+}
+
+.SectionSeventh .card #IndividualSocialMedia .fa-facebook{
+	  background: #3B5998;
+	  color: white;
+	  padding-top: 7px;
+	  padding-bottom: 5px;
+ }
+.SectionSeventh .card #IndividualSocialMedia .fa-twitter {
+	  background: #55ACEE;
+	  color: white;
+	  padding-top: 5px;
+	  padding-bottom: 5px;
+  }
+.SectionSeventh .card #IndividualSocialMedia  .fa-google {
+	  background: #dd4b39;
+	  color: white;
+	  padding-top: 5px;
+	  padding-bottom: 5px;
+  }
+.SectionSeventh .card #IndividualSocialMedia  .fa-instagram {
+	  background: #125688;
+	  color: white;
+	  padding-top: 5px;
+	  padding-bottom: 5px;
+  }
+  			/*======== hover effect ===========*/
+ .SectionSeventh .card #IndividualSocialMedia .fa-facebook:hover{
+	background: white;
+	color: #3B5998;
+	transition: ease .5s;
+}
+.SectionSeventh .card #IndividualSocialMedia .fa-twitter:hover{
+	 background: white;
+	  color: #55ACEE;
+	transition: ease .5s;
+}
+.SectionSeventh .card #IndividualSocialMedia .fa-google:hover{
+	 background: white;
+	  color: #dd4b39;
+	transition: ease .5s;
+}
+.SectionSeventh .card #IndividualSocialMedia .fa-instagram:hover{
+	background: white;
+	  color: #125688;
+	transition: ease .5s;
+}
+
+
+
+@media screen and (max-width: 775px) {
+	.SectionSeventh .seventhSectionTitle{
+		font-size: 30px;
+		text-align: left;
+	}
+}
+
+/*=============================== eight section starts ============================*/
+.sectionEight{
+	margin-top: 30px;
+	background-color: #E2BFBF; 
+}
+
+.sectionEight #startFooter .card{
+	border-color: #E2BFBF;
+	background-color: #E2BFBF; 
+}
+
+.sectionEight .logoSection .card-body #websiteUrl{
+	font-size: 20px;
+	text-align: center;
+	background-color: transparent;
+}
+
+.sectionEight .logoSection .card-body #websiteSocialMedia .fa{
+	  padding: 20px;
+	  font-size: 20px;
+	  width: 30px;
+	  text-align: center;
+	  text-decoration: none;
+	  margin: 5px 2px;
+	  border-radius: 10px;
+}
+
+.sectionEight .logoSection .card-body #websiteSocialMedia .fa-facebook{
+	  background: #3B5998;
+	  color: white;
+	  padding-left: 25px;
+	  padding-right: 40px;
+	  font-size: 25px;
+  }
+
+ .sectionEight .logoSection .card-body #websiteSocialMedia .fa-twitter {
+	  background: #55ACEE;
+	  color: white;
+	  padding-right: 40px;
+	   font-size: 25px;
+  }
+ .sectionEight .logoSection .card-body #websiteSocialMedia .fa-google {
+	  background: #dd4b39;
+	  color: white;
+	  padding-right: 40px;
+	   font-size: 25px;
+  }
+ .sectionEight .logoSection .card-body #websiteSocialMedia .fa-instagram {
+	  background: #125688;
+	  color: white;
+	  padding-right: 40px;
+	   font-size: 25px;
+  }
+
+.sectionEight .logoSection .card-body #websiteSocialMedia .fa-facebook:hover{
+	background: white;
+	color: #3B5998;
+	transition: ease .5s;
+}
+.sectionEight .logoSection .card-body #websiteSocialMedia .fa-twitter:hover{
+	 background: white;
+	  color: #55ACEE;
+	transition: ease .5s;
+}
+.sectionEight .logoSection .card-body #websiteSocialMedia .fa-google:hover{
+	 background: white;
+	  color: #dd4b39;
+	transition: ease .5s;
+}
+.sectionEight .logoSection .card-body #websiteSocialMedia .fa-instagram:hover{
+	background: white;
+	  color: #125688;
+	transition: ease .5s;
+}
+
+
+.sectionEight  .FooterUsefullLinks ul{
+	 list-style-type: none;
+}
+.sectionEight  .FooterUsefullLinks ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+}
+
+.sectionEight .FooterReachOutUs ul{
+	list-style-type: none;
+}
+.sectionEight  .FooterReachOutUs ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+}
+
+.sectionEight  .FooterReachOutUs ul li a:hover , .FooterUsefullLinks ul li a:hover{
+	text-decoration: none;
+	color: red;
+	transition: ease .5s;
+	font-size: 25px;
+}
+
+@media screen and (max-width: 1199px) {
+	.sectionEight .logoSection .card-body #websiteUrl{
+		font-size: 12px;
+		text-align: center;
+		font-weight: 900;
+	}
+
+.sectionEight .logoSection .card-body #websiteSocialMedia .fa{
+	  padding: 20px;
+	  font-size: 15px;
+	  width: 20px;
+	  text-align: center;
+	  text-decoration: none;
+	  margin: 5px 2px;
+	}
+	.sectionEight .logoSection .card-body #websiteSocialMedia .fa-facebook{
+	  	padding-right: 35px;
+	  	 font-size: 20px;
+	}
+	.sectionEight .logoSection .card-body #websiteSocialMedia .fa-twitter{
+	  	padding-right: 35px;
+	  	 font-size: 20px;
+	}
+	.sectionEight .logoSection .card-body #websiteSocialMedia .fa-google{
+	  	padding-right: 35px;
+	  	 font-size: 20px;
+	}
+	.sectionEight .logoSection .card-body #websiteSocialMedia .fa-instagram{
+	  	padding-right: 35px;
+	  	 font-size: 20px;
+	}
+}
+
+/*================================== copyright section starts ============================*/
